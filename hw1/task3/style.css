@@ -3,7 +3,7 @@ body {
     height: 100%;
 }
 body{
-    background: url("../images/logo.JPG") no-repeat ;
+    background: url("logo.JPG") no-repeat ;
     background-size: 100%;
     overflow: hidden;
     font-family: Arial, serif;
@@ -22,7 +22,7 @@ div.login{
     margin: 0 15px -10px 0;
     width: 34px;
     height: 34px;
-    background: url(../images/cr.png) no-repeat;
+    background: url(cr.png) no-repeat;
     background-size: 100%;
     border-radius: 50%;
     box-shadow: 5px 5px 10px rgba(0,0,0,1);
