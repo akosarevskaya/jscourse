@@ -1,0 +1,54 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+@font-face{
+    font-family: 'Varta-Light';
+    font-style: normal;
+    font-weight: 900;
+    src: local('Varta Light'),local('Varta-Light'),url("Varta-Light.ttf") format('truetype');
+}
+body{
+    font-family: Varta-Light,Arial,sans-serif;
+    color: white;
+    background: linear-gradient(to bottom right, #bdbdbd,#000000);
+    text-align: center;
+    display: block;
+    font-size: 125%;
+}
+p{
+    margin: 5px;
+    font-size: 195%;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+input{
+    background: #9d9d9d;
+    border: 1px solid #cdcdcd;
+    border-radius: 3px;
+    padding: 17px 9px 10px 9px;
+    margin: 5px 0;
+    color: white;
+    width: 230px;
+
+}
+button{
+    margin: 5px 0 ;
+    width: 250px;
+    padding: 12px 10px 9px 10px;
+    border-radius: 3px;
+    border: none;
+    background: white;
+    font-size: 90%;
+}
+::placeholder{
+    font-family: Varta-Light,Arial,sans-serif;
+    text-align: center;
+    font-size: 135%;
+    color: white;
+}
