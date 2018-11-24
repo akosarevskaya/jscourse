@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
+    <link rel="stylesheet" href="//cdn.rawgit.com/necolas/normalize.css/master/normalize.css">
+    <link rel="stylesheet" href="//cdn.rawgit.com/milligram/milligram/master/dist/milligram.min.css">
+    CLI
+</head>
+<body>
+    <div class="wrapper">
+        <div class="header">Список самых важных дел</div>
+        <div class="content">
+            <div class="clear">
+                <button>Очистить список</button>
+            </div>
+            <div class="content">
+                <div class="add-item">
+                    <label>Важное дело
+                        <input type="text">
+                    </label>
+                    <label> Дата
+                        <input type="date">
+                    </label>
+                    <button>Добавить</button>
+                </div>
+                <div class="item-list-wrapper">
+                    <h3>Запланированные важные дела</h3>
+                    <table class="item-list">
+                        <tr>
+                            <th>Отметка о выполнении</th>
+                            <th>Дата выполнения</th>
+                            <th>Описание важного дела</th>
+                            <th><button class="button-clear"></button></th>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+<script src="custom.js"></script>
+</body>
+</html>
